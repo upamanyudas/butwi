@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Butwi",
+  "description": "Simple, Beautiful styles for Twitter.com",
+  "icons": {  "48": "icon48.png",
+              "128": "icon128.png" },
+  "version": "1.0",
+  "homepage_url": "http://butwi.cu.cc",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*"],
+      "css": ["butwi.css"]
+    }
+  ]
+}
